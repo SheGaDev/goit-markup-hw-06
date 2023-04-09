@@ -284,6 +284,46 @@ img {
     letter-spacing: 0.02em;
     color: #e7e9fc;
 }
+.footer-flex-subscribe {
+    display: flex;
+    gap: 24px;
+}
+.footer-btn-subscribe {
+    font-family: var(--primary-font);
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 8px 24px;
+    gap: 16px;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ft-icon-sb {
+    fill: #fff;
+}
+.footer-placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 0.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    padding-left: 16px;
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: var(--primary-color);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
 .menu-flt-head {
     font-weight: 500;
     font-size: 20px;
