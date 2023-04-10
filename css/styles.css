@@ -477,14 +477,19 @@ img {
 }
 .footer-l {
     display: flex;
-    gap: 120px;
+}
+.footer-l div:first-child {
+    margin-right: 120px;
+}
+.footer-l div:last-child {
+    margin-left: auto;
 }
 
 .title-social-links {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.66;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 16px;
@@ -501,11 +506,10 @@ img {
 .modal {
     position: absolute;
     width: 408px;
-    min-height: 576px;
     background-color: #fcfcfc;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    padding: 72px 24px;
+    padding: 72px 24px 24px 24px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
@@ -553,7 +557,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 .modal-form-field {
     display: block;
